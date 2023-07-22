@@ -13,9 +13,6 @@
     "dist": "electron-builder -p always",
     "dist2": "electron-builder"
   },
-  "repository": {
-    "type": "git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
