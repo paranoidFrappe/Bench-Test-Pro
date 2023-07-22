@@ -22,8 +22,10 @@ on:
   workflow_dispatch:
 
 jobs:
-  release:
+  publish:
     runs-on: ${{ matrix.os }}
+    permissions:
+      contents: write
 
     env:
       NODE_OPTIONS: '--max_old_space_size=4096'
@@ -42,7 +44,7 @@ jobs:
           node-version: 16
 
       - name: Build/release Electron app
-        uses: samuelmeuli/action-electron-builder@v1.6
+        uses: samuelmeuli/action-electron-builder@v1
         with:
           # GitHub token, automatically provided to the action
           # (No need to define this secret in the repo settings)
