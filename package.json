@@ -1,7 +1,8 @@
 {
   "name": "bench-test-pro",
+  "productName": "Bench Test Pro App",
   "version": "1.0.3",
-  "description": "RestAPI Toolbox",
+  "description": "RestAPI Performance Test Tool",
   "main": "./src/backend/main.js",
   "scripts": {
     "dev": "nodemon & webpack-dev-server",
@@ -11,6 +12,9 @@
     "build": "cross-env NODE_ENV=production webpack",
     "dist": "electron-builder -p always",
     "dist2": "electron-builder"
+  },
+  "repository": {
+    "type": "git"
   },
   "keywords": [],
   "author": "",
