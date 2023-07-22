@@ -60,7 +60,7 @@
     "webpack-dev-server": "^4.15.1"
   },
   "build": {
-    "productName": "Bench Test Pro2",
+    "productName": "Bench Test Pro",
     "appId": "com.example.bench-test-pro",
     "extends": null,
     "asar": true,
