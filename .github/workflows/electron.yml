@@ -1,7 +1,7 @@
 name: Electron Release
 
 # This workflow is responsible for automatically building and releasing the electron app on pushes to the main branch. Build specific configurations are set in electron-builder.yml. 
-
+#
 # When ready to release a new version:
 # 1. create a draft release and set tag to the new version
 # 2. adjust version in package.json
