@@ -54,3 +54,7 @@ jobs:
 
           # # always release
           args: --publish always
+<<<<<<< HEAD
+=======
+          
+>>>>>>> e7f13c00212c1267f9b529c414743d9a2555e719
