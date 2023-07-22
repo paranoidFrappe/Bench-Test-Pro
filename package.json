@@ -63,7 +63,7 @@
     "productName": "Bench Test Pro2",
     "appId": "com.example.bench-test-pro",
     "extends": null,
-    "asar": false,
+    "asar": true,
     "directories": {
       "output": "localPub"
     },
