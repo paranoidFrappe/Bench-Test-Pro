@@ -23,7 +23,7 @@ function createWindow() {
 
   // This platform is checking to see if the OS is Mac, and setting the icon
   if (process.platform === 'darwin') {
-    app.dock.setIcon(path.join(__dirname, './icon.png'));
+    electron_1.app.dock.setIcon(path.join(__dirname, './icon.png'));
   }
 
   // Event listeners on the window
