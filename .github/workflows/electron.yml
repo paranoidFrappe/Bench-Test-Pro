@@ -2,7 +2,7 @@ name: Electron Release
 
 on:
   push:
-    tags: ["*"]
+    branches: [main]
 
 jobs:
   release:
