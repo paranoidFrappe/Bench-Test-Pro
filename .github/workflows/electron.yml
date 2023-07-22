@@ -46,6 +46,4 @@ jobs:
 
           # # always release
           args: --publish always
-            - --publish
-            - always
           
