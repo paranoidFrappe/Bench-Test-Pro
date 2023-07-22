@@ -1,6 +1,6 @@
 {
   "name": "bench-test-pro",
-  "version": "v1.0.4",
+  "version": "1.0.3",
   "description": "RestAPI Toolbox",
   "main": "./src/backend/main.js",
   "scripts": {
