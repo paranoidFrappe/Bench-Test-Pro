@@ -5,8 +5,10 @@ on:
     branches: [main]
 
 jobs:
+  
   release:
 
+    permissions: write-all
     runs-on: ${{ matrix.os }}
 
     env:
