@@ -13,8 +13,6 @@ name: Electron Release
 on:
   push:
     branches: [main]
-    tags:
-      - v*
 
   workflow_dispatch:
 
@@ -34,7 +32,7 @@ jobs:
       - name: Install Node.js
         uses: actions/setup-node@v3.0.0
         with:
-          node-version: "16"
+          node-version: 16
             
       - name: Install Dependencies
         run: npm install

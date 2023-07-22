@@ -1,7 +1,7 @@
 {
   "name": "bench-test-pro",
   "productName": "Bench Test Pro App",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "RestAPI Performance Test Tool",
   "main": "./src/backend/main.js",
   "scripts": {
