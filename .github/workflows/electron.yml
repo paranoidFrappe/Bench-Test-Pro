@@ -9,6 +9,10 @@ jobs:
 
     runs-on: ${{ matrix.os }}
 
+    env:
+      NODE_OPTIONS: '--max_old_space_size=4096'
+
+
     strategy:
       matrix:
         os: [macos-latest, ubuntu-latest, windows-latest]
@@ -22,15 +26,11 @@ jobs:
         with:
           node-version: 18
 
-      - name: Release Electron app
-        uses: coparse-inc/action-electron-builder@v1.0.0
+      - name: test dist
+        uses: actions/setup-node@v2
         with:
-          # GitHub token, automatically provided to the action
-          # (No need to define this secret in the repo settings)
-          github_token: ${{ secrets.github_token }}
+          node-version: 18
 
-          # If the commit is tagged with a version (e.g. "v1.0.0"),
-          # release the app after building
-          release: true
-
-          args: as --publish always
+      - name: Electron Build
+        run: |
+              npm run dist
