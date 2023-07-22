@@ -1,6 +1,6 @@
 {
   "name": "bench-test-pro",
-  "productName": "Bench Test Pro App",
+  "productName": "Bench Test Pro",
   "version": "1.0.9",
   "description": "RestAPI Performance Test Tool",
   "main": "./src/backend/main.js",
